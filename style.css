@@ -58,3 +58,30 @@
 #des{
 
 }
+
+
+#workCont{
+ 
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid red;
+}
+
+#workCont > h1{
+    text-align: center;
+}
+
+#workCont > p{
+    text-align: center;
+    
+}
+
+
+
+#workCont img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
