@@ -1,3 +1,8 @@
+body{
+    font-family: cursive;
+}
+
+
 #navbar{
  
     width: 100%;
@@ -149,10 +154,12 @@
     
     width: 70%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
     /* border: 1px solid red; */
-
-
+background-color: #0c2542;
+color: white;
+padding: 20px;
+border-radius: 30px;
 
 }
 
@@ -169,10 +176,10 @@
 #educDiv div{
 
 
-    border: 1px solid red;
+    border: 1px solid white;
     margin-bottom: 30px;
     text-align: center;
-    
+    border-radius: 20px;
 
 
 }
@@ -183,7 +190,7 @@
     /* border: 1px solid red; */
     width: 70%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 
