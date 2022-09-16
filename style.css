@@ -106,7 +106,7 @@
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(3,100px);
     gap: 40px;
-    margin: auto;
+   
     justify-content: center;
     
     border: 1px solid red;
@@ -123,4 +123,37 @@
     width: 100%;
     height: 100%;
     
+    
+}
+
+#education{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid red;
+
+
+
+}
+
+
+#educDiv{
+
+
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+
+}
+
+#educDiv div{
+
+
+    border: 1px solid red;
+    margin-bottom: 30px;
+    text-align: center;
+    
+
+
 }
