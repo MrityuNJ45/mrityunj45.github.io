@@ -85,3 +85,42 @@
     width: 60%;
     margin-bottom: 50px;
 }
+
+#skillCont{
+    margin: auto;
+    border: 1px solid red;
+    width: 70%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+
+#skillDiv{
+
+    width: 60%;
+    height: 400px;
+    
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 40px;
+    margin: auto;
+    justify-content: center;
+    
+    border: 1px solid red;
+
+
+}
+
+#skillDiv > div{
+    border: 1px solid red;
+   
+}
+
+#skillDiv img{
+    width: 100%;
+    height: 100%;
+    
+}
