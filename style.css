@@ -232,3 +232,11 @@ border-radius: 30px;
 
 
 }
+
+
+@media only screen and (max-width: 360px){
+    #navbar{
+        width: 100%;
+        color: black;
+    }
+}
