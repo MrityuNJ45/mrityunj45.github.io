@@ -209,6 +209,7 @@ border-radius: 30px;
 
 #contactDiv div{
     /* border: 1px solid red; */
+
 }
 
 #contact img{
@@ -269,11 +270,14 @@ border-radius: 30px;
         #contactDiv{
             grid-template-columns: 100px;
             grid-template-rows: repeat(2,50px);
+            gap: 20px;
         }
+       
 
         #contactDiv2{
             grid-template-columns: 200px;
             grid-template-rows: repeat(2,100px);
+            gap: 20px;
         }
     
 }
@@ -310,11 +314,13 @@ border-radius: 30px;
         #contactDiv{
             grid-template-columns: 100px;
             grid-template-rows: repeat(2,50px);
+            gap: 20px;
         }
 
         #contactDiv2{
             grid-template-columns: 200px;
             grid-template-rows: repeat(2,100px);
+           
         }
     
 }
