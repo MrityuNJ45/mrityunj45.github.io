@@ -14,6 +14,8 @@ body{
     margin-right: -10px;
     background-color: #0000ff;
     color: white;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -24,7 +26,7 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-
+   
    
    
 }
@@ -35,6 +37,7 @@ body{
     width: 400px;
     display: flex;
     justify-content: space-around;
+  
 
 }
 
@@ -237,6 +240,92 @@ border-radius: 30px;
 @media only screen and (max-width: 360px){
     #navbar{
         width: 100%;
-        color: black;
+        
     }
+    #bodyPhoto{
+        width: auto;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,auto);
+    }
+    #myPic img{
+        
+            /* height: 400px; */
+            width: auto;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        #skillDiv{
+            grid-template-columns: repeat(2,50px);
+            grid-template-rows: repeat(5,50px);
+        }
+
+        /* #eduDiv{
+            margin-top: 500px;
+        } */
+        
+        #contactDiv{
+            grid-template-columns: 100px;
+            grid-template-rows: repeat(2,50px);
+        }
+
+        #contactDiv2{
+            grid-template-columns: 200px;
+            grid-template-rows: repeat(2,100px);
+        }
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 720px){
+    #navbar{
+        width: 100%;
+        
+    }
+    #bodyPhoto{
+        width: auto;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,auto);
+    }
+    #myPic img{
+        
+            /* height: 400px; */
+            width: auto;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+        }
+        #skillDiv{
+            grid-template-columns: repeat(2,75px);
+            grid-template-rows: repeat(5,75px);
+        }
+
+        /* #eduDiv{
+            margin-top: 500px;
+        } */
+        
+        #contactDiv{
+            grid-template-columns: 100px;
+            grid-template-rows: repeat(2,50px);
+        }
+
+        #contactDiv2{
+            grid-template-columns: 200px;
+            grid-template-rows: repeat(2,100px);
+        }
+    
+}
+
+
+#show a{
+    color: white;
+    text-decoration: none;
+}
+
+#navName a{
+    color: white;
+    text-decoration: none;
 }
