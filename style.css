@@ -34,10 +34,11 @@ body{
 
 #show{
     
-    width: 400px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
-  
+    gap: 20px;
+ 
 
 }
 
@@ -66,6 +67,7 @@ body{
     color: white;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-right: 20px;
 }
 
 #myPic img{
@@ -273,6 +275,9 @@ border-radius: 30px;
             gap: 20px;
         }
        
+
+       
+
 
         #contactDiv2{
             grid-template-columns: 200px;
