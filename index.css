@@ -43,7 +43,7 @@ section {
 .project,
 .contact,
 footer {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Courier New', monospace;
 }
 .about .about-content,
 .services .serv-content,
@@ -56,7 +56,8 @@ footer {
 }
 
 section{
-  background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
+  /* background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px); */
+  /* background-color: #f6ede7; */
 background-size: 10px 10px;
 }
 section .title {
@@ -66,7 +67,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Courier New', monospace;
 }
 section .title::before {
   content: "";
@@ -83,7 +84,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: #5b4b6b;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -95,12 +96,12 @@ section .title::after {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Courier New', monospace;
   transition: all 0.3s ease;
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: rgb(228, 33, 72);
+  background: #5b4b6b;
 }
 .navbar .max-width {
   display: flex;
@@ -118,7 +119,7 @@ section .title::after {
   font-style: oblique;
 }
 .navbar .logo a span {
-  color: crimson;
+  color: #5b4b6b;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -137,7 +138,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: crimson;
+  color: #5b4b6b;
 }
 
 
@@ -165,7 +166,7 @@ section .title::after {
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: crimson;
+  color: #5b4b6b;
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -189,14 +190,14 @@ section .title::after {
 /* https://images.pexels.com/photos/168766/pexels-photo-168766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */
 .home {
   display: flex;
-  background: url("https://wallpaperaccess.com/full/383133.jpg") no-repeat center;
+  background: url("https://i.pinimg.com/originals/6a/d4/10/6ad410326a494ec2b5eeea6a7a1334ee.jpg") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Courier New', monospace;
 }
 .home .max-width {
   width: 100%;
@@ -221,23 +222,23 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: crimson;
+  color: #5b4b6b;
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: crimson;
+  background: #5b4b6b;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 1px solid crimson;
+  border: 1px solid #5b4b6b;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: crimson;
+  color: #5b4b6b;
   background: none;
 }
 
@@ -258,7 +259,8 @@ background-position: 0 0,10px 10px; */
 
 /* background-color: #fff;
 opacity: 0.3; */
-background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
+/* background-image: radial-gradient(#ca0951 0.5px, 
+#f6ede7 0.5px); */
 background-size: 10px 10px;
 
 
@@ -266,6 +268,7 @@ background-size: 10px 10px;
 
 }
 .about .title::after {
+  color: #5b4b6b;
   content: "Who am I";
  
 }
@@ -287,7 +290,7 @@ background-size: 10px 10px;
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: red;
+  color: #5b4b6b;
   
 }
 .about .about-content .right p {
@@ -295,23 +298,28 @@ background-size: 10px 10px;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: crimson;
+  background:#5b4b6b;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid crimson;
+  border: 1px solid #5b4b6b;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: crimson;
+  color: #5b4b6b;
   background: none;
 }
 .about .title::after {
   background-image: url("");  
-  color: red;
+  color: #5b4b6b;
+}
+
+.skills{
+  background-image: radial-gradient(#ca0951 0.5px, 
+#fff 0.5px);
 }
 
 /* services section styling */
@@ -353,7 +361,7 @@ background-size: 10px 10px;
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: crimson;
+  color: #5b4b6b;
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -441,18 +449,18 @@ background-size: 10px 10px;
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: crimson;
+  background: #5b4b6b;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid crimson;
+  border: 1px solid #5b4b6b;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: crimson;
+  color: #5b4b6b;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -480,7 +488,7 @@ background-size: 10px 10px;
   height: 100%;
   left: 0;
   top: 0;
-  background: crimson;
+  background: #5b4b6b;
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -545,9 +553,9 @@ background-size: 10px 10px;
 .repo-div {
   display: flex;
   width: 35%;
-  border: 1px solid crimson;
+  border: 1px solid #5b4b6b;
   border-radius: 8PX;
-  color: crimson;
+  color: #5b4b6b;
   justify-content: center;
   align-items: center;
 }
@@ -555,7 +563,7 @@ background-size: 10px 10px;
 .demo-div {
   display: flex;
   width: 35%;
-  border: 1px solid crimson;
+  border: 1px solid #5b4b6b;
   border-radius: 8px;
   justify-content: center;
   align-items: center;
@@ -595,7 +603,7 @@ background-size: 10px 10px;
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid #5b4b6b !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -604,7 +612,7 @@ background-size: 10px 10px;
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background: #5b4b6b !important;
 }
 .skills-images {
   width: 120px;
@@ -639,7 +647,7 @@ background-size: 10px 10px;
 /* contact section styling */
 
 .material-symbols-outlined{
-  background-color: crimson;
+  background-color: #5b4b6b;
   color: #fff;
 }
 .contact .title::after {
@@ -669,7 +677,7 @@ background-size: 10px 10px;
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: crimson;
+  color: #5b4b6b;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -710,7 +718,7 @@ background-size: 10px 10px;
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Courier New', monospace;
   transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
@@ -736,12 +744,12 @@ background-size: 10px 10px;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 1px solid crimson;
+  background: #5b4b6b;
+  border: 1px solid #5b4b6b;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: crimson;
+  color: #5b4b6b;
   background: none;
 }
 /* footer section styling */
@@ -752,7 +760,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: crimson;
+  color: #5b4b6b;
   text-decoration: none;
 }
 footer span a:hover {
