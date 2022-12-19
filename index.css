@@ -161,12 +161,12 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: #000;
+  background: #5b4b6b;
   right: 30px;
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: #5b4b6b;
+  color: #fff;
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -754,7 +754,7 @@ background-size: 10px 10px;
 }
 /* footer section styling */
 footer {
-  background: #111;
+  background: #5b4b6b;
   padding: 15px 23px;
   color: #fff;
   text-align: center;
