@@ -44,6 +44,7 @@ section {
 .contact,
 footer {
   font-family: 'Courier New', monospace;
+  background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
 }
 .about .about-content,
 .services .serv-content,
